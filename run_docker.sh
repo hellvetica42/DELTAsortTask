@@ -9,4 +9,5 @@ docker run -it --rm \
     --device /dev/dri \
     --group-add video \
     -v $(pwd)/src:/app/src \
+    --name deltasort \
     cyclone-dearpygui
