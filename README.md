@@ -27,6 +27,11 @@ Your task is to design an algorithm to:
 1. Match the timing of the robot and object movement so the end effector reaches the object position.
 2. Pick as many objects as possible without increasing travel speed. By "pick" we mean reach the object's position and then move the robot to the side.
 
+Consider that the algorithm you write will be applied to a real delta robot, so the decisions it makes have to be precise and absolute. (meaning no jittery movement).
+Because of this __timing is key__. 
+
 Your algorithm should be run in Decision.py in the ```update_decision``` function.
 However, we encourage you to dig a bit through this example to see how the robot and other interfaces work.
 You should start with ```DummyDelta.py``` and ```CameraCalibration/ConveyorTracker.py```.
+
+
